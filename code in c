@@ -69,3 +69,22 @@ int main()
 
     return 0;
 }
+
+
+
+
+//calculate momentum 
+#include<stdio.h>
+int main()
+{
+    float mass, velocity, p;
+    printf("Enter the mass :");
+    scanf("%f",&mass);
+
+    printf("Enter the velocity :");
+    scanf("%f",&velocity);
+
+    p = mass*velocity;
+    printf("%f\n",p);
+    return 0;
+}
