@@ -1,0 +1,30 @@
+include <stdio.h>
+
+int main() {
+    double A;
+    printf("Enter the percentage:- ");
+    scanf("%lf\n",&A);
+    if(A>=90)
+    {
+        printf("you have scored distinction ");
+    }
+    else if (A>=75 && A<90)
+    {
+        printf("you have first class");
+    }
+    else if (A>=60 && A<75)
+    {
+        printf("you have scored second class");
+    }
+        else if (A>=35 && A<60)
+        {
+            printf("You have passed the examination ");
+            
+        }
+    else (A<35)
+        {
+        printf("You have failed the examination ");
+        }
+    return 0;
+}
+//Write a program to check % system
