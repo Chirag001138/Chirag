@@ -88,3 +88,26 @@ int main()
     printf("%f\n",p);
     return 0;
 }
+
+
+
+
+// calculate salary 
+
+#include<stdio.h>
+int main()
+{
+    float basic, hra, da, gross;
+    printf("Enter your basic salary: ");
+    scanf("%f", &basic);
+
+    hra = 0.20*basic;
+    da = 0.15*basic;
+    gross = basic + hra + da;
+
+    printf("BASIC = %.2f\n", basic);
+    printf("HRA = %.2f\n", hra);
+    printf("DA = %.2f\n", da);
+    printf("GROSS = %.2f\n", gross);
+    return 0;
+}
