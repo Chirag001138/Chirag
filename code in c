@@ -52,3 +52,20 @@ int main()
 
     return 0;
 }
+
+
+
+
+//area of square 
+#include<stdio.h>
+int main()
+{
+    int a, b;
+    printf("enter a number :");
+    scanf("%d",&a);
+
+    b = a*a;
+    printf("The square of the number is %d\n", b);
+
+    return 0;
+}
