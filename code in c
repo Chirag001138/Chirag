@@ -136,3 +136,18 @@ int main()
     }
     return 0;
 }
+
+// write a program fro break function
+
+#include <stdio.h>
+
+int main() {
+    
+    for (int i = 1;i<=10; i++){
+        if(i==6)
+        {
+            break;
+        }
+    printf("%d",i);
+}
+        return 0;}
